@@ -9,13 +9,35 @@ body{
     align-items: center;
 }
 
-nav ul{
-    display: flex;
+header{
+    background-color:darkorange;
+    width: 100%;
 }
 
-nav li{
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+nav li,
+nav a{
     list-style: none;
     text-decoration: none;
     margin:0px;
-    padding: 15px;
+    padding: 5px;
+    color: darkgreen;
+}
+nav a:hover{
+    color: yellow;
+}
+
+h1{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        background-color: lightblue;
+    }
 }

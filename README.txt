@@ -3,6 +3,13 @@ Exam it-akademy - Developpeur web et mobile - session 2017-18
 Sujet: Création d'une application permettant la gestion d'un magasin de musique.
 
 Utilisation de Virtual Box et Vagrant.
+
+--- Post ---
+Petit message pour rappeler mon abscense, j'ai du faire mon apprentissage en laravel durant l'examen. J'ai fais du mieux que je pouvais ^^'
+
+Merci
+------------
+
 Vagrant -> vm.box = ubuntu/xenal64 / private.network = http://192.168.33.10 / vm.synced_folder: "./data", "/var/www/html"
 Installation -> apache2, zip, php7.2, mysql-server, composer, laravel
 Liaision -> libapache2-mod-php7.2, php7.2-zip, php7.2-mysql, php7.2-mbstring, php7.2-dom
@@ -16,6 +23,10 @@ Composer -> après installation, créer un alias: sudo mv composer.phar /usr/loc
 Laravel/html -> composer require laravelcollective/html; composer update
 mysql/database -> create database storeMusic
 Ajouter une langue sur laravel -> composer require caouecs/laravel-lang:~3.0; Déplacement du dossier "vendor/caoues/laravel-lang/fr"(ou autres) dans le dossier "ressources/lang" 
+
+--- Mysql ---
+user:root
+password:yolo
 
 --- Laravel ---
 

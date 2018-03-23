@@ -13,11 +13,13 @@ class Article extends Migration
      */
     public function up()
     {
-        Schema::create('Guitar', function(Blueprint $table) {
-            $table->increments('id');
-            $table->string('constructeur', 100);
-            $table->string('prix',100);
-        });
+        Db::table('Guitar')->insert([
+            [
+                'nom'=>'guitar 2',
+                'marque'=>'Godin',
+                'type'=>'Acoustic',
+            ]
+        ]);
     }
 
     /**
@@ -27,6 +29,6 @@ class Article extends Migration
      */
     public function down()
     {
-        Shema::drop('Guitar');
+        Schema::drop('Guitar');
     }
 }

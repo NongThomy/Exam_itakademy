@@ -14,3 +14,9 @@
 Route::get('/', 'NavController@Accueil');
 Route::get('article', 'NavController@Article');
 Route::get('contact', 'NavController@Contact');
+
+Route::get('article', 'GuitarController@getForm');
+Route::post('article',[
+    'uses' => 'GuitarController@postForm',
+    'as' => 'storeGuitar'
+]);

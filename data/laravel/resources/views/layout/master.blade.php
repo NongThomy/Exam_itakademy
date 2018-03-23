@@ -13,7 +13,7 @@
 <nav>
     <ul>
         <li><a href="/">Accueil</a></li>
-        <li><a href="/article">Article</a></li>
+        <li><a href="/article">Articles</a></li>
         <li><a href="/contact">Contact</a></li>
     </ul>
 </nav>
