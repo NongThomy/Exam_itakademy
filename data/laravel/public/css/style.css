@@ -1,0 +1,21 @@
+body{
+    background-color: bisque;
+    margin: 0px;
+    padding: 0px;
+    color:darkred;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    text-decoration: none;
+    margin:0px;
+    padding: 15px;
+}

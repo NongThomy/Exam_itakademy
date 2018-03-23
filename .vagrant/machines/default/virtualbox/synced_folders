@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/html":{"guestpath":"/var/www/html","hostpath":"/Users/admin/Desktop/Exam_itakademy/data","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/admin/Desktop/Exam_itakademy","disabled":false,"__vagrantfile":true}}}
